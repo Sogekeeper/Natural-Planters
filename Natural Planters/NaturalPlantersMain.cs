@@ -26,12 +26,12 @@ namespace NaturalPlanters
         [HarmonyPostfix]      
         public static void Postfix(GameObject __result, Plantable __instance)
         {
-            if(!__instance.model.name.Equals("Coral_reef_purple_mushrooms_01_04(Clone)") || 
-                !__instance.model.name.Equals("Coral_reef_jelly_plant_01_01(Clone)") || 
-                !__instance.model.name.Equals("Coral_reef_small_blue_fans_01_01(Clone)"))
-            {
+            //if(!__instance.model.name.Equals("Coral_reef_purple_mushrooms_01_04(Clone)") || 
+            //    !__instance.model.name.Equals("Coral_reef_jelly_plant_01_01(Clone)") || 
+            //    !__instance.model.name.Equals("Coral_reef_small_blue_fans_01_01(Clone)"))
+            //{}
                 __result.transform.localRotation = Quaternion.Euler(__result.transform.localRotation.x, UnityEngine.Random.Range(0, 360), __result.transform.localRotation.z);
-            }
+            
             
             ///ErrorMessage.AddMessage("Plant spawned "+__instance.model.name+"  Tag: "+__result.tag.ToString());       
             
