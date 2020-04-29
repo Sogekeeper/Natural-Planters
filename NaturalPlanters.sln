@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalPlanters", "Natural Planters\NaturalPlanters.csproj", "{EA9C6FBB-1110-43B5-96AE-6CED64658391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9C6FBB-1110-43B5-96AE-6CED64658391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9C6FBB-1110-43B5-96AE-6CED64658391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9C6FBB-1110-43B5-96AE-6CED64658391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9C6FBB-1110-43B5-96AE-6CED64658391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1676641-DC36-4AE9-989A-DD562B3D5C72}
+	EndGlobalSection
+EndGlobal
